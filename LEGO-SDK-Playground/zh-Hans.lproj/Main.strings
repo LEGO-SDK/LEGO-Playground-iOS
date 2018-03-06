@@ -1,0 +1,15 @@
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "2s6-JT-ULz"; */
+"2s6-JT-ULz.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "FJh-H4-p8v"; */
+"FJh-H4-p8v.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "H8S-c3-kRR"; */
+"H8S-c3-kRR.title" = "Root View Controller";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "pjv-X6-c8C"; */
+"pjv-X6-c8C.title" = "Item";
+
+/* Class = "UINavigationController"; title = "API"; ObjectID = "vbh-fR-OYD"; */
+"vbh-fR-OYD.title" = "API";

@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  LEGO-SDK-Playground
+//
+//  Created by Keep Jacky on 2017/11/14.
+//  Copyright © 2017年 UED Center. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define kHomePageURLStringKey @"kHomePageURLStringKey"
+
+#define kDefaultHomePageURLString @"http://webpage.yy.com/s/lego-sdk/index.html#nav"
+
+#define kBackupURLString @"http://www.baidu.com"
+
+#define kURLRegexString @"((http[s]{0,1}|ftp)://[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)"
+
+#define kGuideIntroductionURLString @"https://github.com/LEGO-SDK/LEGO-SDK-OC/blob/master/README.md"
+
+#define kGudieEmbeddedURLString @"https://lego-sdk.github.io/docs/api/doc/intergrade/ios.html#"
+
+#define kGuideExtendableURLString @"https://lego-sdk.github.io/docs/api/doc/extension/ios.html"
+
+#endif /* PrefixHeader_pch */

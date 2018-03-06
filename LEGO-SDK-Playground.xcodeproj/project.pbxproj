@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452F14371FB93E62005EEB98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 452F14361FB93E62005EEB98 /* AppDelegate.m */; };
+		452F143D1FB93E62005EEB98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452F143B1FB93E62005EEB98 /* Main.storyboard */; };
+		452F143F1FB93E62005EEB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452F143E1FB93E62005EEB98 /* Assets.xcassets */; };
+		452F14421FB93E62005EEB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452F14401FB93E62005EEB98 /* LaunchScreen.storyboard */; };
+		452F14451FB93E62005EEB98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 452F14441FB93E62005EEB98 /* main.m */; };
+		452F144D1FB97DE9005EEB98 /* Scan.html in Resources */ = {isa = PBXBuildFile; fileRef = 452F144C1FB97DE9005EEB98 /* Scan.html */; };
+		453C6CF21FBD734300DF9F5C /* PGGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453C6CF11FBD734300DF9F5C /* PGGuideViewController.m */; };
+		4578CD971FBAF4FF005E4EBB /* PGLabTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4578CD961FBAF4FF005E4EBB /* PGLabTableHeaderView.m */; };
+		4578CDC31FBAF5A7005E4EBB /* PGLabTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4578CDC21FBAF5A7005E4EBB /* PGLabTableHeaderView.xib */; };
+		4578CDC91FBAF5B2005E4EBB /* PGAPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4578CDC61FBAF5B2005E4EBB /* PGAPIViewController.m */; };
+		459074851FC2817600DE84A3 /* PGHomepageURLSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459074841FC2817600DE84A3 /* PGHomepageURLSettingViewController.xib */; };
+		459074881FC2818B00DE84A3 /* PGHomepageURLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459074861FC2818B00DE84A3 /* PGHomepageURLSettingViewController.m */; };
+		459654B51FBA94B1003BB340 /* PGTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459654B41FBA94B1003BB340 /* PGTabbarController.m */; };
+		459654BB1FBA96B9003BB340 /* PGLabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459654BA1FBA96B9003BB340 /* PGLabViewController.m */; };
+		459654BE1FBA9FF3003BB340 /* PGLGOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459654BD1FBA9FF3003BB340 /* PGLGOViewController.m */; };
+		45EA534E1FCE8BC800C9AEC8 /* PGAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EA534C1FCE8BC800C9AEC8 /* PGAboutViewController.m */; };
+		45EA534F1FCE8BC800C9AEC8 /* PGAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45EA534D1FCE8BC800C9AEC8 /* PGAboutViewController.xib */; };
+		6085C14E7C26D2DDDA0D5503 /* libPods-LEGO-SDK-Playground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CD61CE44604C73AA41CABA /* libPods-LEGO-SDK-Playground.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DB0E578C18109CF93454AB4 /* Pods-LEGO-SDK-Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEGO-SDK-Playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LEGO-SDK-Playground/Pods-LEGO-SDK-Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		452F14321FB93E62005EEB98 /* LEGO-SDK-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LEGO-SDK-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		452F14351FB93E62005EEB98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		452F14361FB93E62005EEB98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		452F143C1FB93E62005EEB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		452F143E1FB93E62005EEB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		452F14411FB93E62005EEB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		452F14431FB93E62005EEB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452F14441FB93E62005EEB98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		452F144C1FB97DE9005EEB98 /* Scan.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Scan.html; sourceTree = "<group>"; };
+		453C6CF01FBD734300DF9F5C /* PGGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGuideViewController.h; sourceTree = "<group>"; };
+		453C6CF11FBD734300DF9F5C /* PGGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGuideViewController.m; sourceTree = "<group>"; };
+		4578CD951FBAF4FF005E4EBB /* PGLabTableHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGLabTableHeaderView.h; sourceTree = "<group>"; };
+		4578CD961FBAF4FF005E4EBB /* PGLabTableHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGLabTableHeaderView.m; sourceTree = "<group>"; };
+		4578CDC21FBAF5A7005E4EBB /* PGLabTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGLabTableHeaderView.xib; sourceTree = "<group>"; };
+		4578CDC41FBAF5B2005E4EBB /* PGAPIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGAPIViewController.h; sourceTree = "<group>"; };
+		4578CDC61FBAF5B2005E4EBB /* PGAPIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGAPIViewController.m; sourceTree = "<group>"; };
+		459074841FC2817600DE84A3 /* PGHomepageURLSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGHomepageURLSettingViewController.xib; sourceTree = "<group>"; };
+		459074861FC2818B00DE84A3 /* PGHomepageURLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGHomepageURLSettingViewController.m; sourceTree = "<group>"; };
+		459074871FC2818B00DE84A3 /* PGHomepageURLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGHomepageURLSettingViewController.h; sourceTree = "<group>"; };
+		459654B21FBA90BD003BB340 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		459654B31FBA94B1003BB340 /* PGTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGTabbarController.h; sourceTree = "<group>"; };
+		459654B41FBA94B1003BB340 /* PGTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGTabbarController.m; sourceTree = "<group>"; };
+		459654B91FBA96B9003BB340 /* PGLabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGLabViewController.h; sourceTree = "<group>"; };
+		459654BA1FBA96B9003BB340 /* PGLabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGLabViewController.m; sourceTree = "<group>"; };
+		459654BC1FBA9FF3003BB340 /* PGLGOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGLGOViewController.h; sourceTree = "<group>"; };
+		459654BD1FBA9FF3003BB340 /* PGLGOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGLGOViewController.m; sourceTree = "<group>"; };
+		45EA534B1FCE8BC800C9AEC8 /* PGAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGAboutViewController.h; sourceTree = "<group>"; };
+		45EA534C1FCE8BC800C9AEC8 /* PGAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAboutViewController.m; sourceTree = "<group>"; };
+		45EA534D1FCE8BC800C9AEC8 /* PGAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PGAboutViewController.xib; sourceTree = "<group>"; };
+		45FE80EE1FBE7D05005E22D5 /* LEGO-SDK-Playground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LEGO-SDK-Playground.entitlements"; sourceTree = "<group>"; };
+		45FE80EF1FBE8272005E22D5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		45FE80F01FBE8272005E22D5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E6CD61CE44604C73AA41CABA /* libPods-LEGO-SDK-Playground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEGO-SDK-Playground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCCEE358865A9ECDC7E8CB7 /* Pods-LEGO-SDK-Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEGO-SDK-Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-LEGO-SDK-Playground/Pods-LEGO-SDK-Playground.release.xcconfig"; sourceTree = "<group>"; };
+		FC939DBB97AE0499B11082C1 /* Pods-LEGO-SDK-Playground.distribute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEGO-SDK-Playground.distribute.xcconfig"; path = "Pods/Target Support Files/Pods-LEGO-SDK-Playground/Pods-LEGO-SDK-Playground.distribute.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		452F142F1FB93E62005EEB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6085C14E7C26D2DDDA0D5503 /* libPods-LEGO-SDK-Playground.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC125E898BB57B13742407B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0E578C18109CF93454AB4 /* Pods-LEGO-SDK-Playground.debug.xcconfig */,
+				EFCCEE358865A9ECDC7E8CB7 /* Pods-LEGO-SDK-Playground.release.xcconfig */,
+				FC939DBB97AE0499B11082C1 /* Pods-LEGO-SDK-Playground.distribute.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		378A911DE52E8025157D2737 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6CD61CE44604C73AA41CABA /* libPods-LEGO-SDK-Playground.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		452F14291FB93E62005EEB98 = {
+			isa = PBXGroup;
+			children = (
+				452F14341FB93E62005EEB98 /* LEGO-SDK-Playground */,
+				452F14331FB93E62005EEB98 /* Products */,
+				0EC125E898BB57B13742407B /* Pods */,
+				378A911DE52E8025157D2737 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		452F14331FB93E62005EEB98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				452F14321FB93E62005EEB98 /* LEGO-SDK-Playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		452F14341FB93E62005EEB98 /* LEGO-SDK-Playground */ = {
+			isa = PBXGroup;
+			children = (
+				45EA534A1FC2BB0300C9AEC8 /* root */,
+				45EA53491FC2BAC300C9AEC8 /* Lab */,
+				45EA53481FC2BAA100C9AEC8 /* Guide */,
+				45EA53471FC2BA8C00C9AEC8 /* API */,
+				45FE80EE1FBE7D05005E22D5 /* LEGO-SDK-Playground.entitlements */,
+				452F144B1FB97D62005EEB98 /* html */,
+				452F14351FB93E62005EEB98 /* AppDelegate.h */,
+				452F14361FB93E62005EEB98 /* AppDelegate.m */,
+				452F143B1FB93E62005EEB98 /* Main.storyboard */,
+				452F143E1FB93E62005EEB98 /* Assets.xcassets */,
+				452F14401FB93E62005EEB98 /* LaunchScreen.storyboard */,
+				452F14431FB93E62005EEB98 /* Info.plist */,
+				452F14441FB93E62005EEB98 /* main.m */,
+				459654B21FBA90BD003BB340 /* PrefixHeader.pch */,
+			);
+			path = "LEGO-SDK-Playground";
+			sourceTree = "<group>";
+		};
+		452F144B1FB97D62005EEB98 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				452F144C1FB97DE9005EEB98 /* Scan.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		45EA53471FC2BA8C00C9AEC8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4578CDC41FBAF5B2005E4EBB /* PGAPIViewController.h */,
+				4578CDC61FBAF5B2005E4EBB /* PGAPIViewController.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		45EA53481FC2BAA100C9AEC8 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				453C6CF01FBD734300DF9F5C /* PGGuideViewController.h */,
+				453C6CF11FBD734300DF9F5C /* PGGuideViewController.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		45EA53491FC2BAC300C9AEC8 /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				459074871FC2818B00DE84A3 /* PGHomepageURLSettingViewController.h */,
+				459074861FC2818B00DE84A3 /* PGHomepageURLSettingViewController.m */,
+				459074841FC2817600DE84A3 /* PGHomepageURLSettingViewController.xib */,
+				459654B91FBA96B9003BB340 /* PGLabViewController.h */,
+				459654BA1FBA96B9003BB340 /* PGLabViewController.m */,
+				459654BC1FBA9FF3003BB340 /* PGLGOViewController.h */,
+				459654BD1FBA9FF3003BB340 /* PGLGOViewController.m */,
+				4578CD951FBAF4FF005E4EBB /* PGLabTableHeaderView.h */,
+				4578CD961FBAF4FF005E4EBB /* PGLabTableHeaderView.m */,
+				4578CDC21FBAF5A7005E4EBB /* PGLabTableHeaderView.xib */,
+				45EA534B1FCE8BC800C9AEC8 /* PGAboutViewController.h */,
+				45EA534C1FCE8BC800C9AEC8 /* PGAboutViewController.m */,
+				45EA534D1FCE8BC800C9AEC8 /* PGAboutViewController.xib */,
+			);
+			path = Lab;
+			sourceTree = "<group>";
+		};
+		45EA534A1FC2BB0300C9AEC8 /* root */ = {
+			isa = PBXGroup;
+			children = (
+				459654B31FBA94B1003BB340 /* PGTabbarController.h */,
+				459654B41FBA94B1003BB340 /* PGTabbarController.m */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		452F14311FB93E62005EEB98 /* LEGO-SDK-Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452F14481FB93E62005EEB98 /* Build configuration list for PBXNativeTarget "LEGO-SDK-Playground" */;
+			buildPhases = (
+				5B04DBE28D713FA847FBF5A6 /* [CP] Check Pods Manifest.lock */,
+				452F142E1FB93E62005EEB98 /* Sources */,
+				452F142F1FB93E62005EEB98 /* Frameworks */,
+				452F14301FB93E62005EEB98 /* Resources */,
+				0CF5C3437D30BD2D91C16310 /* [CP] Embed Pods Frameworks */,
+				04475EE601E99287BF04D817 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LEGO-SDK-Playground";
+			productName = "LEGO-SDK-Playground";
+			productReference = 452F14321FB93E62005EEB98 /* LEGO-SDK-Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		452F142A1FB93E62005EEB98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PG;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "UED Center";
+				TargetAttributes = {
+					452F14311FB93E62005EEB98 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 452F142D1FB93E62005EEB98 /* Build configuration list for PBXProject "LEGO-SDK-Playground" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 452F14291FB93E62005EEB98;
+			productRefGroup = 452F14331FB93E62005EEB98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				452F14311FB93E62005EEB98 /* LEGO-SDK-Playground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		452F14301FB93E62005EEB98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452F14421FB93E62005EEB98 /* LaunchScreen.storyboard in Resources */,
+				452F144D1FB97DE9005EEB98 /* Scan.html in Resources */,
+				452F143F1FB93E62005EEB98 /* Assets.xcassets in Resources */,
+				4578CDC31FBAF5A7005E4EBB /* PGLabTableHeaderView.xib in Resources */,
+				45EA534F1FCE8BC800C9AEC8 /* PGAboutViewController.xib in Resources */,
+				459074851FC2817600DE84A3 /* PGHomepageURLSettingViewController.xib in Resources */,
+				452F143D1FB93E62005EEB98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04475EE601E99287BF04D817 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LEGO-SDK-Playground/Pods-LEGO-SDK-Playground-resources.sh",
+				"${PODS_ROOT}/LEGO-SDK-Plugin-CodeScan/ios/Source/CodeScanViewController.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEGO-SDK-Playground/Pods-LEGO-SDK-Playground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CF5C3437D30BD2D91C16310 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEGO-SDK-Playground/Pods-LEGO-SDK-Playground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B04DBE28D713FA847FBF5A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LEGO-SDK-Playground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		452F142E1FB93E62005EEB98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4578CDC91FBAF5B2005E4EBB /* PGAPIViewController.m in Sources */,
+				459654BE1FBA9FF3003BB340 /* PGLGOViewController.m in Sources */,
+				4578CD971FBAF4FF005E4EBB /* PGLabTableHeaderView.m in Sources */,
+				459074881FC2818B00DE84A3 /* PGHomepageURLSettingViewController.m in Sources */,
+				452F14451FB93E62005EEB98 /* main.m in Sources */,
+				459654BB1FBA96B9003BB340 /* PGLabViewController.m in Sources */,
+				459654B51FBA94B1003BB340 /* PGTabbarController.m in Sources */,
+				45EA534E1FCE8BC800C9AEC8 /* PGAboutViewController.m in Sources */,
+				453C6CF21FBD734300DF9F5C /* PGGuideViewController.m in Sources */,
+				452F14371FB93E62005EEB98 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		452F143B1FB93E62005EEB98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452F143C1FB93E62005EEB98 /* Base */,
+				45FE80EF1FBE8272005E22D5 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		452F14401FB93E62005EEB98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452F14411FB93E62005EEB98 /* Base */,
+				45FE80F01FBE8272005E22D5 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		452F14461FB93E62005EEB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		452F14471FB93E62005EEB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		452F14491FB93E62005EEB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB0E578C18109CF93454AB4 /* Pods-LEGO-SDK-Playground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GPHW87L24;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LEGO-SDK-Playground/PrefixHeader.pch";
+				INFOPLIST_FILE = "LEGO-SDK-Playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HuanJuShiDai.LEGO-SDK-Playground-DEV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		452F144A1FB93E62005EEB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCCEE358865A9ECDC7E8CB7 /* Pods-LEGO-SDK-Playground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GPHW87L24;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LEGO-SDK-Playground/PrefixHeader.pch";
+				INFOPLIST_FILE = "LEGO-SDK-Playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HuanJuShiDai.LEGO-SDK-Playground-DEV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45FE80F61FBEE13A005E22D5 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribute;
+		};
+		45FE80F71FBEE13A005E22D5 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC939DBB97AE0499B11082C1 /* Pods-LEGO-SDK-Playground.distribute.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GPHW87L24;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LEGO-SDK-Playground/PrefixHeader.pch";
+				INFOPLIST_FILE = "LEGO-SDK-Playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HuanJuShiDai.LEGO-SDK-Playground-DEV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribute;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		452F142D1FB93E62005EEB98 /* Build configuration list for PBXProject "LEGO-SDK-Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452F14461FB93E62005EEB98 /* Debug */,
+				452F14471FB93E62005EEB98 /* Release */,
+				45FE80F61FBEE13A005E22D5 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452F14481FB93E62005EEB98 /* Build configuration list for PBXNativeTarget "LEGO-SDK-Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452F14491FB93E62005EEB98 /* Debug */,
+				452F144A1FB93E62005EEB98 /* Release */,
+				45FE80F71FBEE13A005E22D5 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 452F142A1FB93E62005EEB98 /* Project object */;
+}

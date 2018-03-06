@@ -1,0 +1,122 @@
+PODS:
+  - LEGO-SDK (1.0.2):
+    - LEGO-SDK/API (= 1.0.2)
+    - LEGO-SDK/AutoInject (= 1.0.2)
+    - LEGO-SDK/Core (= 1.0.2)
+  - LEGO-SDK-Plugin-CodeScan (0.0.1)
+  - LEGO-SDK/API (1.0.2):
+    - LEGO-SDK/API/Native (= 1.0.2)
+    - LEGO-SDK/API/UI (= 1.0.2)
+    - LEGO-SDK/API/WebView (= 1.0.2)
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native (1.0.2):
+    - LEGO-SDK/API/Native/Call (= 1.0.2)
+    - LEGO-SDK/API/Native/Check (= 1.0.2)
+    - LEGO-SDK/API/Native/DataModel (= 1.0.2)
+    - LEGO-SDK/API/Native/Device (= 1.0.2)
+    - LEGO-SDK/API/Native/FileManager (= 1.0.2)
+    - LEGO-SDK/API/Native/HTTPRequest (= 1.0.2)
+    - LEGO-SDK/API/Native/Notification (= 1.0.2)
+    - LEGO-SDK/API/Native/OpenURL (= 1.0.2)
+    - LEGO-SDK/API/Native/Pasteboard (= 1.0.2)
+    - LEGO-SDK/API/Native/UserDefaults (= 1.0.2)
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/Call (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/Check (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/DataModel (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/Device (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/FileManager (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/HTTPRequest (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/Notification (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/OpenURL (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/Pasteboard (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/UserDefaults (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI (1.0.2):
+    - LEGO-SDK/API/UI/ActionSheet (= 1.0.2)
+    - LEGO-SDK/API/UI/AlertView (= 1.0.2)
+    - LEGO-SDK/API/UI/ImagePreviewer (= 1.0.2)
+    - LEGO-SDK/API/UI/ModalController (= 1.0.2)
+    - LEGO-SDK/API/UI/NavigationController (= 1.0.2)
+    - LEGO-SDK/API/UI/NavigationItem (= 1.0.2)
+    - LEGO-SDK/API/UI/PageState (= 1.0.2)
+    - LEGO-SDK/API/UI/Picker (= 1.0.2)
+    - LEGO-SDK/API/UI/ProgressView (= 1.0.2)
+    - LEGO-SDK/API/UI/Refresh (= 1.0.2)
+    - LEGO-SDK/API/UI/Toast (= 1.0.2)
+    - LEGO-SDK/API/UI/ViewController (= 1.0.2)
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/ActionSheet (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/AlertView (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/ImagePreviewer (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/ModalController (1.0.2):
+    - LEGO-SDK/API/UI/ViewController
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/NavigationController (1.0.2):
+    - LEGO-SDK/API/UI/ViewController
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/NavigationItem (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/PageState (1.0.2):
+    - LEGO-SDK/API/UI/ViewController
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/Picker (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/ProgressView (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/Refresh (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/Toast (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/ViewController (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/WebView (1.0.2):
+    - LEGO-SDK/API/WebView/Pack (= 1.0.2)
+    - LEGO-SDK/API/WebView/Preload (= 1.0.2)
+    - LEGO-SDK/API/WebView/Skeleton (= 1.0.2)
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/WebView/Pack (1.0.2):
+    - LEGO-SDK/Core
+    - SSZipArchive (= 1.8.1)
+  - LEGO-SDK/API/WebView/Preload (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/WebView/Skeleton (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/AutoInject (1.0.2):
+    - LEGO-SDK/Core
+  - LEGO-SDK/Core (1.0.2)
+  - SSZipArchive (1.8.1)
+
+DEPENDENCIES:
+  - LEGO-SDK
+  - LEGO-SDK-Plugin-CodeScan (from `https://raw.githubusercontent.com/LEGO-SDK/Plugin-CodeScan/master/LEGO-SDK-Plugin-CodeScan.podspec?`)
+
+EXTERNAL SOURCES:
+  LEGO-SDK-Plugin-CodeScan:
+    :podspec: https://raw.githubusercontent.com/LEGO-SDK/Plugin-CodeScan/master/LEGO-SDK-Plugin-CodeScan.podspec?
+
+CHECKOUT OPTIONS:
+  LEGO-SDK-Plugin-CodeScan:
+    :commit: c87b38d3b071a4f503346eeec235d0acfaeb81f0
+    :git: https://github.com/LEGO-SDK/Plugin-CodeScan.git
+
+SPEC CHECKSUMS:
+  LEGO-SDK: 6c8f8d9f0b8e2b99a6d1b6a8bf1bbf24f9c1134e
+  LEGO-SDK-Plugin-CodeScan: 2322a8fd6c5cfd86e984a9a055952b0eb8faa1e7
+  SSZipArchive: 04547dfa448be5ed7ecbaf7eaf8a6e9eb9b42997
+
+PODFILE CHECKSUM: e833c229c0ac7a9fea016c25fdd868d1b0d67026
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta content="width: 320" name="viewport" />
+    </head>
+    <body style="margin-top: 6rem">
+        <pre id="prettyprint" class="prettyprint" style="font-size: 48px;"></pre>
+    </body>
+    <button onclick="scan()" style="height:200px; width:300px; font-size:50px" >扫码</button>
+    <script>
+        window.JSBridge && eval(window.JSBridge.bridgeScript())
+        function scan() {
+            JSMessage.newMessage('Plugin.CodeScan',{'opt':'Scan','closeAfter':true}).call(function(meta,res){
+                                                                                          JSMessage.newMessage("UI.NavigationController", {
+                                                                                                               opt: "push",                                                                                                           path: res.result,                            }).call(null)
+                                                                                          
+        })
+<!--JSMessage.newMessage("UI.NavigationController", {-->
+<!--                     opt: "push",                                                                                                           path: "http://webpage.yy.com/s/lego-sdk/index.html#nav",-->
+<!--                     args: {-->
+<!--                     customID: 8888,-->
+<!--                     }-->
+<!--                     }).call(null)-->
+
+        }
+        </script>
+    
+</html>
